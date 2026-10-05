@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Muhammad Khalil Portfolio</title>
+<meta name="description" content="Muhammad Khalil — operations and project coordination professional in Karachi, Pakistan. Manages end-to-end training operations for 600+ students at YouExcel Training.">
+<meta name="author" content="Muhammad Khalil">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Muhammad Khalil — Operations &amp; Project Coordination">
+<meta property="og:description" content="Operations, project coordination, team supervision and process improvement — Karachi, Pakistan.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0d0a08">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%2216%22 fill=%22%230d0a08%22/><text x=%2216%22 y=%2222%22 font-family=%22Georgia,serif%22 font-style=%22italic%22 font-size=%2215%22 fill=%22%23f2cd83%22 text-anchor=%22middle%22>MK</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <span class="loader-mark">MK</span>
+    <span class="loader-bar"><i id="loaderBar"></i></span>
+    <span class="loader-count" id="loaderCount">000</span>
+  </div>
+</div>
+
+<canvas class="embers" id="embers" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"><i id="scrollBar"></i></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="brand" aria-label="Muhammad Khalil, back to top">
+    <span class="brand-mark">MK</span>
+    <span class="brand-name">Muhammad Khalil</span>
+  </a>
+  <nav class="main-nav" aria-label="Primary">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Results</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="header-actions">
+    <a class="btn btn-ghost btn-sm" href="assets/Muhammad_Khalil_CV.pdf" download>Download CV</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu"><span></span></button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <a href="#about" style="--i:0">About</a>
+  <a href="#experience" style="--i:1">Experience</a>
+  <a href="#skills" style="--i:2">Skills</a>
+  <a href="#achievements" style="--i:3">Results</a>
+  <a href="#contact" style="--i:4">Contact</a>
+  <a href="assets/Muhammad_Khalil_CV.pdf" download style="--i:5" class="mobile-cv">Download CV ↓</a>
+</nav>
+
+<main id="main">
+
+  <!-- ============ HERO: pinned story ============ -->
+  <section class="scene scene-hero" id="top" data-scene="hero">
+    <div class="stage">
+      <div class="hero-glow" id="heroGlow" aria-hidden="true"></div>
+
+      <div class="portrait" id="portrait">
+        <img src="assets/img/hero-portrait.webp" alt="Portrait of Muhammad Khalil in a brown blazer" width="970" height="1144" fetchpriority="high" decoding="async">
+      </div>
+
+      <div class="flyers" id="flyers" aria-hidden="true"></div>
+
+      <div class="chap chap-0" data-chap="0">
+        <p class="eyebrow">Portfolio · Karachi, Pakistan</p>
+        <h1 class="display" data-split>Muhammad <em>Khalil.</em></h1>
+        <p class="lede">Operations &amp; Project Coordination — team supervision, process improvement, and training programmes run end to end, from enrollment to certification.</p>
+        <p class="award"><span class="award-medal" aria-hidden="true"></span>Gold Medalist — 1st position, representing University of Karachi</p>
+        <dl class="hero-stats">
+          <div><dt>Working since</dt><dd>2017</dd></div>
+          <div><dt>Students managed</dt><dd>600+</dd></div>
+          <div><dt>Cash handled / month</dt><dd>PKR 30M+</dd></div>
+        </dl>
+      </div>
+
+      <div class="chap chap-1" data-chap="1">
+        <p class="eyebrow">What I do · 01</p>
+        <h2 class="display" data-split>Plans, <em>unpacked.</em></h2>
+        <p class="lede">A cohort arrives as a pile of moving parts: 80–150 students, instructors, labs, schedules, certificates. I break it into steps a team can actually follow.</p>
+      </div>
+
+      <div class="chap chap-2" data-chap="2">
+        <p class="eyebrow">What I do · 02</p>
+        <h2 class="display" data-split>Records, <em>in order.</em></h2>
+        <p class="lede">Attendance, fees and LMS issues at YouExcel; muster rolls, overtime and inventory forms in the Main Control Room at KNPGS. Filed, reconciled, ready when someone asks.</p>
+      </div>
+
+      <div class="chap chap-3" data-chap="3">
+        <p class="eyebrow">Now · YouExcel Training</p>
+        <h2 class="display" data-split>Operations, <em>in motion.</em></h2>
+        <div class="chap-ctas">
+          <a href="#experience" class="btn btn-gold">See the work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="scroll-cue" id="scrollCue" aria-hidden="true"><span>Scroll to unfold</span><i></i></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <figure class="about-photo" data-clip>
+        <div class="about-photo-inner"><img src="assets/img/about-candid.jpg" alt="Muhammad Khalil seated indoors, mid-conversation, wearing a brown blazer" loading="lazy" width="900" height="900" data-parallax></div>
+        <figcaption>Karachi, Pakistan</figcaption>
+      </figure>
+
+      <div class="about-copy">
+        <p class="eyebrow rv">About</p>
+        <h2 class="h2 rv">Organized across operations, IT, and <em>people.</em></h2>
+        <p class="rv">I'm an operations and project coordination professional, working since 2017 across training, energy, retail, travel and healthcare organizations. Today I run end-to-end operations for 600+ students at YouExcel Training — Prime Minister's NAVTTC skills projects and in-house programmes alike — from enrollment and fees to labs, LMS support, certificates and management reporting.</p>
+        <p class="rv">Along the way: PKR 30M+ handled in monthly cash, IT support response time cut by 30%, and three refueling-outage contracts at Karachi Nuclear Power Generating Station. Currently looking for an Operations or Project Management role.</p>
+
+        <dl class="facts">
+          <div class="rv"><dt>Current role</dt><dd>Project Coordinator – Operations, YouExcel Training</dd></div>
+          <div class="rv"><dt>Based in</dt><dd>Karachi, Pakistan</dd></div>
+          <div class="rv"><dt>Email</dt><dd><a href="mailto:khalil.operation@gmail.com">khalil.operation@gmail.com</a></dd></div>
+          <div class="rv"><dt>Phone</dt><dd><a href="tel:+923221304398">+92 322 1304398</a></dd></div>
+        </dl>
+
+        <div class="edu">
+          <h3 class="label rv">Education</h3>
+          <div class="edu-row rv"><div><b>BS Public Administration</b><span>University of Karachi</span></div><time>2022 – 2026</time></div>
+          <div class="edu-row rv"><div><b>Intermediate, Pre-Engineering</b><span>Govt. Jinnah College, Karachi</span></div><time>2017 – 2019</time></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marquee">
+      <span>Operations <em>·</em> Project Coordination <em>·</em> Team Supervision <em>·</em> Process Improvement <em>·</em> Reporting <em>·</em>&nbsp;</span>
+      <span>Operations <em>·</em> Project Coordination <em>·</em> Team Supervision <em>·</em> Process Improvement <em>·</em> Reporting <em>·</em>&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ============ EXPERIENCE: pinned card flight ============ -->
+  <section class="scene scene-exp" id="experience" data-scene="exp">
+    <div class="stage">
+      <div class="exp-top">
+        <p class="eyebrow">Experience</p>
+        <h2 class="h2">Five roles, one thread: keeping operations <em>on track.</em></h2>
+      </div>
+
+      <ol class="exp-rail" id="expRail" aria-hidden="true">
+        <li><b>01</b><span>2025 — now</span></li>
+        <li><b>02</b><span>2023 — 25</span></li>
+        <li><b>03</b><span>2021 — 22</span></li>
+        <li><b>04</b><span>2017 — 19</span></li>
+        <li><b>05</b><span>2017 — 18</span></li>
+        <i class="exp-rail-fill" id="expRailFill"></i>
+      </ol>
+
+      <div class="roles" id="roles">
+        <article class="role has-photo">
+          <div class="role-head">
+            <span class="role-ghost" aria-hidden="true">01</span>
+            <p class="role-dates">Aug 2025 — Present · Current</p>
+            <h3 class="role-title">Project Coordinator – <em>Operations</em></h3>
+            <p class="role-co">YouExcel Training, Karachi</p>
+            <figure class="role-photo"><img src="assets/img/youexcel-session.jpg" alt="Muhammad Khalil working at a laptop during a session at YouExcel Training" loading="lazy" width="480" height="600"><figcaption>On the floor at YouExcel</figcaption></figure>
+          </div>
+          <div class="role-card">
+            <ul>
+              <li>Manage end-to-end operations for 600+ students, from enrollment to certification, across Prime Minister's NAVTTC skills projects (80–150 per cohort) and YouExcel's own training programs.</li>
+              <li>Run NAVTTC projects end to end (attendance, records, documentation) and handle fees for in-house programs.</li>
+              <li>Oversee computer labs, laptops and projectors, setting up and maintaining them for every session.</li>
+              <li>Lead student support in person and on WhatsApp, resolving queries, problems and LMS issues.</li>
+              <li>Coordinate instructors and schedules, issue certificates and present progress reports to management.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-head">
+            <span class="role-ghost" aria-hidden="true">02</span>
+            <p class="role-dates">May 2023 — Jul 2025 · 3 contracts</p>
+            <h3 class="role-title">Data Entry Operator / <em>Tech-IV</em></h3>
+            <p class="role-co">Karachi Nuclear Power Generating Station — PAEC</p>
+          </div>
+          <div class="role-card">
+            <ul>
+              <li>Engaged on three contingent contracts during plant refueling outages (2023, 2024, 2025), re-hired each time with a completion certificate.</li>
+              <li>Operations Division (Data Entry Operator, May–Jun 2023): managed job records and entries in the Main Control Room; prepared letters, muster rolls and proforma documents.</li>
+              <li>Electrical Department (Tech-IV, Sep–Nov 2024 and May–Jul 2025): handled all paperwork for a 25-member team, including attendance, overtime, and inventory issue and return forms.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-head">
+            <span class="role-ghost" aria-hidden="true">03</span>
+            <p class="role-dates">Aug 2021 — Jan 2022</p>
+            <h3 class="role-title"><em>Cashier</em></h3>
+            <p class="role-co">Bin Hashim Super Mart, Karachi</p>
+          </div>
+          <div class="role-card">
+            <ul>
+              <li>Handled cash transactions exceeding PKR 30 million per month with accurate daily entries in the store software.</li>
+              <li>Conducted weekly physical inventory audits and reconciled stock against system records.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-head">
+            <span class="role-ghost" aria-hidden="true">04</span>
+            <p class="role-dates">Jan 2017 — Oct 2019</p>
+            <h3 class="role-title">IT <em>Officer</em></h3>
+            <p class="role-co">Gulzar Travels, SITE, Karachi</p>
+          </div>
+          <div class="role-card">
+            <ul>
+              <li>Reduced IT support response time by 30% over two years by streamlining support handling.</li>
+              <li>Supported company systems, laptops, software and office networking (routers and switches).</li>
+              <li>Managed the company's hardware, software and network inventory.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-head">
+            <span class="role-ghost" aria-hidden="true">05</span>
+            <p class="role-dates">Jan 2017 — Dec 2018 · Part-time</p>
+            <h3 class="role-title"><em>Receptionist</em></h3>
+            <p class="role-co">City Medical Hospital, Karachi</p>
+          </div>
+          <div class="role-card">
+            <ul>
+              <li>Managed the front desk, patient assistance and cash collection; kept records with weekly reconciliation.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section skills" id="skills">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow rv">Skills</p>
+        <h2 class="h2 rv">Competencies, tools and <em>languages.</em></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-col" data-assemble>
+          <h3 class="label">Core competencies</h3>
+          <div class="chips">
+            <span class="chip">Operations Management</span>
+            <span class="chip">Project Coordination &amp; Delivery</span>
+            <span class="chip">Process Improvement</span>
+            <span class="chip">Team Supervision</span>
+            <span class="chip">Stakeholder Communication</span>
+            <span class="chip">Resource &amp; Inventory Management</span>
+            <span class="chip">Scheduling &amp; Planning</span>
+            <span class="chip">Policy &amp; Quality Compliance</span>
+            <span class="chip">Reporting &amp; Documentation</span>
+          </div>
+
+          <h3 class="label">Technical toolkit</h3>
+          <div class="chips">
+            <span class="chip">MS Excel</span>
+            <span class="chip">Word</span>
+            <span class="chip">PowerPoint</span>
+            <span class="chip">Outlook</span>
+            <span class="chip">Adobe Photoshop</span>
+            <span class="chip">IT &amp; network troubleshooting</span>
+            <span class="chip">AI productivity tools</span>
+          </div>
+        </div>
+
+        <div class="skill-col" data-assemble>
+          <h3 class="label">Languages</h3>
+          <div class="langs">
+            <div class="lang chip"><span>Urdu</span><i><b data-level="100"></b></i><em>Native</em></div>
+            <div class="lang chip"><span>English</span><i><b data-level="92"></b></i><em>Fluent</em></div>
+            <div class="lang chip"><span>Sindhi</span><i><b data-level="80"></b></i><em>Proficient</em></div>
+            <div class="lang chip"><span>Pashto</span><i><b data-level="55"></b></i><em>Intermediate</em></div>
+            <div class="lang chip"><span>Saraiki</span><i><b data-level="55"></b></i><em>Intermediate</em></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS: pinned figures ============ -->
+  <section class="scene scene-ach" id="achievements" data-scene="ach">
+    <div class="stage">
+      <div class="ach-top">
+        <p class="eyebrow">Results</p>
+        <h2 class="h2">Results, not just <em>responsibilities.</em></h2>
+      </div>
+      <div class="coins" id="coins" aria-hidden="true"></div>
+      <div class="ach-row">
+        <div class="ach-slot"><article class="ach-card">
+          <span class="ach-fig"><span data-count="600">600</span>+</span>
+          <h3>Students managed</h3>
+          <p>End-to-end operations for every cohort at YouExcel Training, from enrollment to certification.</p>
+        </article></div>
+        <div class="ach-slot"><article class="ach-card">
+          <span class="ach-fig"><small>PKR</small><span data-count="30">30</span>M+</span>
+          <h3>Cash handled monthly</h3>
+          <p>Transactions above PKR 30 million a month, entered and reconciled accurately every day.</p>
+        </article></div>
+        <div class="ach-slot"><article class="ach-card">
+          <span class="ach-fig">−<span data-count="30">30</span>%</span>
+          <h3>Faster IT support</h3>
+          <p>Response time cut by 30% over two years by streamlining how support requests were handled.</p>
+        </article></div>
+        <div class="ach-slot"><article class="ach-card ach-card--gold">
+          <span class="ach-fig">1<sup>st</sup></span>
+          <h3>Gold Medalist</h3>
+          <p>Took 1st position in a televised competition, representing the University of Karachi.</p>
+        </article></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRAINING ============ -->
+  <section class="section training">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow rv">Achievements &amp; training</p>
+        <h2 class="h2 rv">Recognition along the <em>way.</em></h2>
+      </div>
+      <ul class="train-list">
+        <li class="rv"><b>Certificate of Appreciation</b><span>YouExcel Training Institute</span></li>
+        <li class="rv"><b>Three completion certificates</b><span>KNPGS refueling outages · 2023, 2024, 2025</span></li>
+        <li class="rv"><b>Conflict Management at the Workplace</b><span>Professional training course</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <div class="contact-head">
+        <img class="contact-avatar rv" src="assets/img/profile-formal.jpg" alt="Formal portrait of Muhammad Khalil" loading="lazy" width="800" height="1047">
+        <h2 class="mega" data-scatter>Let's work <em>together.</em></h2>
+        <p class="rv">Reach out directly, or send a message and I'll get back to you soon.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="channels">
+          <a class="channel rv" href="https://wa.me/923221304398?text=Hi%20Muhammad%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener"><span>WhatsApp</span><b>+92 322 1304398</b><i>↗</i></a>
+          <a class="channel rv" href="mailto:khalil.operation@gmail.com?subject=Let%27s%20connect"><span>Email</span><b>khalil.operation@gmail.com</b><i>↗</i></a>
+          <a class="channel rv" href="tel:+923221304398"><span>Phone</span><b>+92 322 1304398</b><i>↗</i></a>
+          <a class="channel rv" href="https://www.linkedin.com/in/khalil-operation" target="_blank" rel="noopener"><span>LinkedIn</span><b>/in/khalil-operation</b><i>↗</i></a>
+          <a class="channel rv" href="assets/Muhammad_Khalil_CV.pdf" download><span>Resume</span><b>Download full CV (PDF)</b><i>↓</i></a>
+        </div>
+
+        <form class="contact-form rv" id="contactForm" novalidate>
+          <div class="field"><label for="name">Name</label><input type="text" id="name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" required autocomplete="email"></div>
+          <div class="field"><label for="subject">Subject</label><input type="text" id="subject" name="subject" required></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="4" required></textarea></div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-gold">Send message</button>
+            <span class="form-note">Opens WhatsApp and your email app with the message filled in.</span>
+          </div>
+          <p class="form-success" id="formSuccess" role="status" hidden>Your message is ready — check the WhatsApp or email window that just opened.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-big">Muhammad <em>Khalil</em></p>
+    <div class="footer-meta">
+      <span>© <span id="year">2026</span> Muhammad Khalil</span>
+      <span>Karachi, Pakistan</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
